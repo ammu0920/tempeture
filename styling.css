@@ -1,0 +1,42 @@
+body {
+    background-color:white;
+}
+.type h1 {
+    color:tomato;
+    font-weight: lighter;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.type P {
+    color:slateblue;
+    font-size: 24px;
+}
+.type button{
+    text-decoration: none;
+    color:black;
+    background:yellow;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+    border-style: none;
+}
+.type button:hover{
+    background:plum ;
+    color:azure;
+}
+.image{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    right: 100px;
+    bottom:0;
+    top:45%
+}
+.image img{
+    position: absolute;
+    height: 160%;
+    left:20%;
+    bottom:0;
+}
